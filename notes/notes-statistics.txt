@@ -1,0 +1,233 @@
+Statistics Notes:
+
+Chapter 1
+
+Treatment Group - group which gets the variable.
+Controll Group - group which does not get the variable, and is not touched.
+
+A summary statistic is a single number summarizing a large amount of data.3
+
+Case - single observation, or data unit. unit of observation or an observational unit.
+
+Variables
+
+Data matrix - row -case column - variable
+
+Variable
+	Numerical - can take a wide range of values. (where sum, average have meaning) Zip codes are not numerical
+		Continuous - ex: funds
+		Discrete - numerical values with jumps ex: Lighbulb wattage
+	Categorical - US state - limited number of values
+		Nominal - not ordered - us states
+		Ordinal - pain from 1 - 10
+		
+Two variables dependent: then they are associated
+	negative association
+	positive association
+	
+Independent variables - no effect of one over the other
+
+1.3
+Population - the group being studied
+
+population parameter - some mean, average value of some variable of the population
+Sample - subgroup from population
+	This will be studied and conclusions applied to the population
+	
+Anecdotal evidence - Data collected in this haphazard fashion
+
+Bias in sample - choosing sample based on convenience, or other factor
+	Danger - sample not representative of the larger group
+
+Sample selection:
+	Simple random sample - sample members selected randomly
+		Chosen to reduce bias, but bias might still occur
+			Non-response bias - only a subset of the randomly selected members are cooperating with the study
+			convenience sample - only easily reachable members are entering the sample
+		
+1.3.4
+Explanatory variable - variable which might explain the result (independent)
+response variable - effect of the explanatory variable (dependent)
+
+Study is testing that the explanatory variable does and how it affects response variable
+
+1.3.5
+
+observational study - collect data in a way that does not directly interfere with how the data arise.
+cohort - 
+
+experiment - a study set up
+
+Random sampling - picking individuals into samples
+random assignment - picking individuals into treatment and control group
+
+1.4.1
+
+Making causal conclusions based on experiments is often reasonable. However, making
+
+the same causal conclusions based on observational data can be treacherous and is not rec-
+ommended. Thus, observational studies are generally only sufficient to show associations.
+
+confounding variable (lurking variable, confounding factor, or a confounder.) 
+	- which is a variable that is correlated with both the explanatory and response variables.
+
+Observational studies come in two forms: prospective and retrospective studies. A prospective study identifies individuals and collects information as events unfold. 
+For instance, medical researchers may identify and follow a group of similar individuals over many years to assess the possible influences of behavior on cancer risk.
+
+Retrospective studies collect data after events have taken place, e.g. researchers may review past events in medical records.
+
+1.4.2
+
+Sampling methods:
+Simple random sampling is probably the most intuitive form of random sampling.
+
+Stratified sampling is a divide-and-conquer sampling strategy. The population is divided into groups called strata. 
+The strata are chosen so that similar cases are grouped together, then a second sampling method, usually simple random sampling, is employed within each stratum.
+Baseball players - strata teams. We sample randomly 3 players from each team (strata)
+
+Cluster sample - break population into many clusters - select clusters and analyze each individual in the sample
+
+Multistage sample - cluster sample, but select randomly the individuals in the sample. Not all as in the cluster sample
+Sometimes cluster or multistage sampling can be more economical than the alternative sampling techniques. 
+Also, unlike stratified sampling, these approaches are most helpful when there is a lot of case-to-case variability within a cluster but the clusters themselves
+don’t look very different from one another. For example, if neighborhoods represented clusters, then cluster or multistage sampling work best when the neighborhoods are very
+diverse. A downside of these methods is that more advanced analysis techniques are typically required,
+
+1.5
+Experiments
+Observational studies are usually used to show associations. In order to show causation, experiments are needed. (causal connection between vars)
+
+1.5.1
+Randomized experiments are build on four principles
+Controlling: Controlling any other variables
+Randomization: This is in order to account for non studied variables which cannot be controlled.
+Replication: We replicate the study on multiple individuals so that the conclusion can be solid. The study can also be replicated overall.
+Blocking: to account for known variables which might affect the result (block all women and all men in separate groups, select control and treatment in each block)
+
+1.5.2 Reduce bias
+Blind - treated group is not aware that the medication or placebo is given
+Double blind - blind + the doctor doesn't know it either
+
+Random Sampling (rs)- subject selected for study - Generalizable
+Random Assignment (ra)- subject are selected into control and treatment groups (causal)
+
+ra - rs - causal and generalizable
+nra - rs - not causal but generalizable
+ra - nrs - causal but not generalizable
+nra - nrs - garbage
+
+Contingency table: a type of table in a matrix format that displays the frequency distribution of the variables
+
+HW:
+1.1
+a. 23.25
+	4.35
+b. Possibly, but not really. The sample size is not great enough, not enough people received the positive result
+c. not really
+
+1.3
+a. year 1989 and 1993
+b. CO ppm, NO2 pphm, PM10 in mug/m^3, length of gestation 
+c. examine the relationship between air pollutants and preterm births in Southern California.
+
+1.11
+a. Population - astma sufferers. 600 asthma patients aged 18-69 who relied on medication
+b. Patients from sample most likely not randomly selected, but they might be representative. Since it is an experiment, with random selection - it is showing causal relationship.
+
+1.13
+a. an individual case - Observation
+b. sample statistic - variable 
+c. population parameter - sample statistic
+d. - population parameter
+
+1.17
+a. Observational study
+b. stratified sampling
+
+1.19
+	
+
+
+Test Quiz:
+1. 
+
+Which of the following classifications of variable types is false?
+
+Population of each state in the US → continuous numerical
+Correct 
+
+This question refers to the following learning objective(s):
+
+Identify variables as numerical and categorical.
+
+    If variable is numerical, further classify as continuous or discrete based on whether or not the variable can take on an infinite number of values or only non-negative whole numbers, respectively.
+    If variable is categorical, determine if it is ordinal based on whether or not the levels have a natural ordering.
+
+Counted data are discrete numerical variables since they can’t take on non-whole values.
+
+Whether a student has previously taken a statistics course → categorical
+
+Customer satisfaction: very unsatisfied, unsatisfied, satisfied, very satisfied → ordinal categorical
+
+Student height → continuous numerical
+Correct
+1 / 1 points
+2. 
+
+True or False: If subjects are randomly assigned to treatments, conclusions can be generalized to the population.
+
+True
+
+False
+Correct 
+
+This question refers to the following learning objective(s):
+
+Classify a study as observational or experimental, and determine whether the study’s results can be generalized to the population and whether they suggest correlation or causation.
+
+    If random sampling has been employed in data collection, the results should be generalizable to the target population.
+    If random assignment has been employed in study design, the results suggest causality.
+
+Random assignment allows us to make causal conclusions. For generalizability, we need random sampling.
+Correct
+1 / 1 points
+3. 
+
+As part of a statistics project, Andrea would like to collect data on household size in her city. To do so, she asks each person in her statistics class for the size of their household, and reports that her sample is a simple random sample. However, this is not a simple random sample. Which of the following is the best reasoning for why this is not a random sample that is appropriate for this research question?
+
+Andrea did not use any randomization; she took a convenience sample.
+Correct 
+
+This question refers to the following learning objective(s):
+
+Distinguish between simple random, stratified, and cluster sampling, and recognize the benefits and drawbacks of choosing one sampling scheme over another.
+
+Andrea did not use a stratified sample.
+
+Andrea did not block for any variables that might influence the response.
+Correct
+1 / 1 points
+4. 
+
+Which of the following is not one of the four principles of experimental design?
+
+randomize
+
+stratify
+Correct 
+
+The question refers to the following learning objective: Identify the four principles of experimental design and recognize their purposes: control any possible confounders, randomize into treatment and control groups, replicate by using a sufficiently large sample or repeating the experiment, and block any variables that might influence the response.
+
+replicate
+Correct
+1 / 1 points
+5. 
+
+True or False: Stratified sampling allows for controlling for possible confounders in the sampling stage, while blocking allows for controlling for such variables during random assignment.
+
+True
+Correct 
+
+Stratifying and blocking both allow for controlling for potential confounders, but at different stages of the study design. We stratify when we sample (divide population into strata and sample from within each stratum), and block in the process of random assignment (divide sample into blocks and randomly assign from within each block to treatment groups).
+
+False
