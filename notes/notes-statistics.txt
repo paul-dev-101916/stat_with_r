@@ -231,3 +231,16 @@ Correct
 Stratifying and blocking both allow for controlling for potential confounders, but at different stages of the study design. We stratify when we sample (divide population into strata and sample from within each stratum), and block in the process of random assignment (divide sample into blocks and randomly assign from within each block to treatment groups).
 
 False
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Week 2
+1.6
+A scatterplot provides a case-by-case view of data for two numerical variables.
+A dot plot is a one-variable scatter-plot
+
+The mean, sometimes called the average, is a common way to measure the center of a distribution of data.
+
+Sample mean denoted as x with a line above.
+Population mean is denoted as a greek mu character.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
