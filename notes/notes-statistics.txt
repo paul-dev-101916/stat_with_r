@@ -242,5 +242,66 @@ The mean, sometimes called the average, is a common way to measure the center of
 Sample mean denoted as x with a line above.
 Population mean is denoted as a greek mu character.
 
+Histograms show the data density
+
+Convenient to show the data distribution
+When data trails off to the right the shape is right skewed, long right tail
+When data trails off to the left the shape is left skewed, long left tail
+Some are symetric if same trail on both sides
+
+Long tail
+
+A mode is represented by a prominent peak in the distribution.
+unimodal, bimodal, and multimodal
+
+Two measures of variability: variance and standard deviation
+Deviation: distance of an observation from mean
+population variance (sigma squared) is the sum of the square of distances from mean didvided by sample size
+sample variance (s squared unbiased) is the sum of the square of distances from sample mean didvided by sample size - 1
+biased samle variance same as unbiased but divided by n 
+
+Standard deviation is the square root of the variance
+
+A box plot summarizes a data set using five statistics while also plotting unusual observa-
+tions.
+
+The first step in building a box plot is drawing a dark line denoting the median, which splits the data in half.
+The second step in building a box plot is drawing a rectangle to represent the middle 50% of the data. The total length of the box is called the interquartile range (IQR, for short). It, like the standard deviation, is a measure of variability in data. The more variable the data, the larger the standard deviation and IQR. The two boundaries of the box are called the first quartile (the 25th percentile, i.e. 25% of the data fall below this value) and the third quartile (the 75th percentile), and these are often labeled Q1 and Q3, respectively.
+
+Extending out from the box, the whiskers attempt to capture the data outside of the box, however, their reach is never allowed to be more than 1.5 × IQR. They capture everything within this reach. In Figure 1.26, the upper whisker does not extend to the last three points, which is beyond Q3+1.5×IQR, and so it extends only to the last point below this limit. The lower whisker stops at the lowest value, since there is no additional data to reach; the lower whisker’s limit is not shown in the figure because the plot does not extend down to Q1 − 1.5 × IQR. In a sense, the box is like the body of the box plot and the whiskers are like its arms trying to reach the rest of the data.
+
+Any observation that lies beyond the whiskers is labeled with a dot. The purpose of labeling these points – instead of just extending the whiskers to the minimum and maximum observed values – is to help identify any observations that appear to be unusually distant from the rest of the data.
+
+1.6.6 Robust statistics
+
+The median and IQR are called robust estimates because extreme observations have little effect on their values. The mean and standard deviation are much more affected by changes in extreme observations.
+
+1.6.7 Transforming data for better analysis
+Apply a function to rescale the data. natural log
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.7 Categorical data
+
+A table that summarizes data for two categorical variables is called a contingency table.
+Each value in the table represents the number of times a particular combination of variable outcomes occurred.
+
+A table for a single variable is called a frequency table.
+If we replaced the counts with percentages or proportions, the table would be called a relative frequency table.
+
+A bar plot is a common way to display a single categorical variable.
+
+The row proportions are computed as the counts divided by their row totals. (row totalsshould be 1)
+
+The column proportions are computed as the counts divided by their columns totals. (column totalsshould be 1)
+
+1.7.3 Segmented bar and mosaic plots
+Contingency tables using row or column proportions are especially useful for examining how two categorical variables are related.
+
+
+
+
+
+
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
