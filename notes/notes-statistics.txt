@@ -297,7 +297,14 @@ The column proportions are computed as the counts divided by their columns total
 1.7.3 Segmented bar and mosaic plots
 Contingency tables using row or column proportions are especially useful for examining how two categorical variables are related.
 
+A segmented bar plot is a graphical display of contingency table information.
 
+Standardized segmented bar plot - 
+
+A mosaic plot is a graphical display of contingency table information that is similar to a bar plot for one variable or a segmented bar plot when using two variables.
+
+1.7.5 Comparing numerical data across groups
+All that is required is to make a numerical plot for each group. Here two convenient methods are introduced: side-by-side box plots and hollow histograms.
 
 
 
