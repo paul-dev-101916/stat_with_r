@@ -306,9 +306,131 @@ A mosaic plot is a graphical display of contingency table information that is si
 1.7.5 Comparing numerical data across groups
 All that is required is to make a numerical plot for each group. Here two convenient methods are introduced: side-by-side box plots and hollow histograms.
 
+1.8
+
+Variability within data
+Null hypothesis - no relation/correlation/causation - Independent
+
+Alternative hypothesis - THere is a dependence
+
+Like a courtroom trial
+
+If it could be due to chance - we fail to reject the null hypothesis
+Decision is "Not guilty" and not "Innocent"
+We can just say that the evidence is not enough to prove dependence. We don't say that they are independent.
+
+HW
+1.39
+1 a lin
+2 c
+3 a non lin
+4 b lin
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Week 2:
+
+Probability:
+Random process
+Sometimes it is usefull to represent a model as random when it is not trully random
+
+P(A) probability of event A
+
+0 <= P(A) <= 1
+
+Probability 
+frequentist - the rate at which the outcome would occur if we repeat process infinitely
+bayesian - subjective degree of belief
+
+Prior experience integrated into the model
+
+Law of large numbers - as more observations are collected the proportion of occurences converges to the probability of the outcome.
+
+Gablers fallacy 
+ common misunderstanding of the law of large numbers is that random processes are supposed to compensate for whatever happened in the past
+ 
+Disjoint events
+Cannot occur at the same time - mutual exclusive
+
+P(A and B) = 0
+
+nondisjoint 
+P(A and B) > 0
+
+Probability of one of two events = P(A) + P(B)
+P(A or B) = P(A) + P(B)
+
+Union of non disjoint events
+
+P(drawing jack or red card) = P(drawing jack) + P(red) - P(J and Red)
+
+Sample space = all possible outcomes of a trial
+
+S = {...}
+
+Probability distribution: all outcomes, and their probabilities
+
+Need to follow 3 rules:
+Events must be disjoint
+be between 0 and 1
+SUm of the distributions must total 1
+
+Complementary events
+Mutually exclusive events whose probability add up to 1
+
+Disjoint is not equal to complementary
+
+W2 P1 V3
+Independence:
+If knowing outcome 1 does not help in knowing the probability of outcome of event 2.
+
+Probability of event A occuring given B
+P(A|B) = P(A) => A and B are independent
+| = given
+
+If we suspect dependence we should create hypothesis testing
+
+If we have relative low observations, but the difference is large we could suspect depnedence.
+If the difference is minimal but sample size is huge, we could also suspect dependence.
+
+Product rule
+
+If A and B are insependent =>
+P(A and B) = P(A) X P(B)
+for more than 2 events it is the same....
+
+W2 P1 V4
+W2 P1 V5
+
+Disjoint events adding up to 1 are dependent always
 
 
 
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+General addition rule
+
+
+Sample space
+
+
+Probability distr
+
+
+compa
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
