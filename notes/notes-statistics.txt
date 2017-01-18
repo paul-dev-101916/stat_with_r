@@ -403,10 +403,25 @@ W2 P1 V5
 
 Disjoint events adding up to 1 are dependent always
 
+W2 P2 V1
 
+Conditional probability
 
+Marginal probability
 
+Conditional probability - Bayes theorem
 
+P(A|B) = P(A and B) / P(B)
+
+General product rule (regardless if they are dependent or independent)
+
+P(A and B) = P(A|B) X P(B)
+
+W3 P2 V2
+
+Probability Tree
+
+Need to pay attention that if all options do not add up to 100 then you need to multiply to get proportion.
 
 
 
